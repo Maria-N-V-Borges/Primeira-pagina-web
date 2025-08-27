@@ -13,5 +13,6 @@ Esse foi meu primeiro projeto em HTML5, criado na disciplina de Desenvolvimento 
 - Inserir imagens `<img>`  
 - Links `<a>`  
 - Rodapé `<footer>`
+- Tabela `<table>`, `<tr>`, `<td>`
 <br>
 💖 Minha página também tem estilo graça ao CSS 💖
