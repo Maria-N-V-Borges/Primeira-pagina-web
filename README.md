@@ -12,4 +12,6 @@ Esse foi meu primeiro projeto em HTML5, criado na disciplina de Desenvolvimento 
 - Listas ordenadas `<ol>` e não ordenadas `<ul>`  
 - Inserir imagens `<img>`  
 - Links `<a>`  
-- Rodapé `<footer>`  
+- Rodapé `<footer>`
+<br>
+💖 Minha página também tem estilo graça ao CSS 💖
