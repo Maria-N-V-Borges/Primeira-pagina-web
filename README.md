@@ -14,5 +14,7 @@ Esse foi meu primeiro projeto em HTML5, criado na disciplina de Desenvolvimento 
 - Links `<a>`  
 - Rodapé `<footer>`
 - Tabela `<table>`, `<tr>`, `<td>`
-<br>
-💖 Minha página também tem estilo graça ao CSS 💖
+- Comentários em HTML (`<!-- ... -->`) (` /* ... */ `)
+- Criar e navegar entre páginas (`index.html`, `ia.html`, `tabela.html`)  
+- CSS básico para cores, fontes e centralização  
+- Estilização de tabelas com cores, efeito zebra e hover ✨ 
