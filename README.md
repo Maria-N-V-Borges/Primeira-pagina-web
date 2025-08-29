@@ -6,16 +6,17 @@ Esse foi meu primeiro projeto em HTML5, criado na disciplina de Desenvolvimento 
 ---
 
 ## 📚 Assuntos aprendidos até agora
-- Estrutura básica de uma página HTML (`<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`)  
-- Títulos com `<h1>`, `<h2>`...  
+- Estrutura básica de uma página HTML (`<!DOCTYPE html>` `<html>` `<head>` `<body>`)  
+- Títulos com `<h1>` `<h2>` 
 - Parágrafos com `<p>`  
 - Listas ordenadas `<ol>` e não ordenadas `<ul>`  
 - Inserir imagens `<img>`  
 - Links `<a>`  
 - Rodapé `<footer>`  
-- Tabela (`<table>`, `<tr>`, `<td>`)  
-- Comentários em HTML (`<!-- ... -->`) e em CSS (`/* ... */`)  
-- Criar e navegar entre páginas (`index.html`, `ia.html`, `tabela.html`, `formulario.html`)  
+- Tabela (`<table>` `<tr>` `<td>`)  
+- Comentários em HTML `<!-- ... -->`
+- Em CSS `/* ... */` 
+- Criar e navegar entre páginas (`index.html` `ia.html` `tabela.html` `formulario.html`)  
 - CSS básico para cores, fontes e centralização 
 - Estilização de tabelas (cores, efeito zebra e hover ✨)
 - Uso de **gradiente e sombras no CSS**
@@ -25,6 +26,6 @@ Esse foi meu primeiro projeto em HTML5, criado na disciplina de Desenvolvimento 
   - Telefone (`<input type="tel">`)  
   - Data (`<input type="date">`)  
   - Área de texto (`<textarea>`)  
-  - Botões (`submit` e `reset`)  
-  - Seleção de opções (`<select>` e `<option>`)
+  - Botões (`submit` `reset`)  
+  - Seleção de opções (`<select>` `<option>`)
 
