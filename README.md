@@ -12,11 +12,11 @@ Esse foi meu primeiro projeto em HTML5, criado na disciplina de Desenvolvimento 
 - Listas ordenadas `<ol>` e não ordenadas `<ul>`  
 - Inserir imagens `<img>`  
 - Links `<a>`  
-- Rodapé `<footer>`
-- Tabela `<table>`, `<tr>`, `<td>`
-- Comentários em HTML (`<!-- ... -->`) e em CSS (` /* ... */ `)
+- Rodapé `<footer>`  
+- Tabela (`<table>`, `<tr>`, `<td>`)  
+- Comentários em HTML (`<!-- ... -->`) e em CSS (`/* ... */`)  
 - Criar e navegar entre páginas (`index.html`, `ia.html`, `tabela.html`, `formulario.html`)  
-- CSS básico para cores, fontes e centralização  
+- CSS básico para cores, fontes e centralização 
 - Estilização de tabelas (cores, efeito zebra e hover ✨)
 - Uso de **gradiente e sombras no CSS**
 - Criação de **menus de navegação estalizados** com hover e transições
