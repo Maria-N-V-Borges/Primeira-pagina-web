@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de Contato</title>
+</head>
+<body>
+  <h1>Formulário de Contato 💖</h1>
+
+<form>
+  <label for="nome">*Nome:</label>
+  <input type="text" id="nome" name="nome" required>
+  <br><br>
+
+  <label for="telefone">*Telefone:</label>
+  <input type="tel" id="telefone" name="telefone" required>
+  <br><br>
+
+  <label for="data">*Data de Nascimento:</label>
+  <input type="date" id="data" name="data" required>
+  <br><br>
+  
+  <label for="idade">Idade:</label>
+  <input type="number" id="idade" name="idade" min="0" max="120">
+  <br><br>
+
+   <p>Quais temas você gosta?</p>
+   <input type="checkbox" id="games" name="interesses" value="games">
+   <label for="games">Games 🎮</label>
+
+   <input type="checkbox" id="ia" name="interesses" value="ia">
+   <label for="ia">Inteligência Artificial 🤖</label>
+   
+   <input type="checkbox" id="musica" name="interesses" value="musica">
+   <label for="musica">Música 🎵</label>
+
+   <input type="checkbox" id="esportes" name="interesses" value="esportes">
+   <label for="esportes">Esportes ⚽</label>
+
+   <input type="checkbox" id="animes" name="interesses" value="animes">
+   <label for="animes">Animes & Mangás 🌸</label>
+
+   <input type="checkbox" id="literatura" name="interesses" value="literatura">
+   <label for="literatura">Literatura 📚</label>
+
+   <input type="checkbox" id="tecnologia" name="interesses" value="tecnologia">
+   <label for="tecnologia">Tecnologia 💡</label>
+
+   <input type="checkbox" id="natureza" name="interesses" value="natureza">
+   <label for="natureza">Natureza 🌿</label>
+
+   <input type="checkbox" id="outros" name="interesses" value="outros">
+   <label for="outros">Outros 💖</label>
+   <br><br>
+   
+   <p>*Qual seu gênero?</p>
+   <input type="radio" id="feminino" name="genero" value="feminino" required>
+   <label for="feminino">Feminino</label>
+
+   <input type="radio" id="masculino" name="genero" value="masculino">
+   <label for="masculino">Masculino</label>
+
+   <input type="radio" id="outro" name="genero" value="outro"
+   <label for="outro">Outro</label>
+   <br><br>
+
+   <label for="curso">Curso:</label>
+   <select id="curso" name="curso">
+     <option value="">Selecione...</option>
+     <option value="cc">Ciência da Computação 💻</option>
+     <option value="ti">Gestão de TI 🖥️</option>
+     <option value="es">Engenharia de Software ⚙️</option>
+     <option value="ia">Inteligência Artificial 🤖</option>
+     <option value="games">Games 🎮</option>
+     <option value="design">Design Digital 🎨</option>
+     <option value="psicologia">Psicologia 🧠</option>
+     <option value="outro">Outros</option>
+     <option value="nenhum">Nenhum curso no momento 🚫</option>
+</select>
+<br><br>
+
+  <label for="mensagem">Mensagem:</label><br>
+  <textarea id="mensagem" name="mensagem" rows="4" cols="30" placeholder="Escreva sua mensagem..."></textarea>
+  <br>
+
+  <button type="submit">Enviar ✅</button>
+  <button type="reset">Apagar ❌</button>
+</form>
+</body>
+</html> 
