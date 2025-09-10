@@ -3,26 +3,94 @@
 <head>
   <meta charset="UTF-8">
   <title>Formulário de Contato</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #cce7ff, #e6f2ff);
+      color: #003366;
+      text-align: center;
+      padding: 40px;
+}
+
+h1 {
+   color: #004080;
+   margin-bottom: 20px;
+   text-shadow: 1px 1px 2px #99ccff;
+}
+
+form {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  margin: auto;
+  box-shadow: 0px 4px 10 px rgba(0, 64, 128, 0.2)
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+  display: incline-block;
+  margin-bottom: 6px;
+  color: #004080;
+}
+
+input, select, textarea {
+  with: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1 px solid #99ccff;
+  border-radius: border-box;
+  font-size: 14px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  with: auto;
+  margin-right: 8px;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  background: #3399ff;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  margin: 5px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #2673cc;
+}
+
+p {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: 003366;
+}
+</style>
 </head>
 <body>
-  <h1>Formulário de Contato 💖</h1>
+  <h1>💖 Formulário de Contato 💖</h1>
 
 <form>
   <label for="nome">*Nome:</label>
   <input type="text" id="nome" name="nome" required>
-  <br><br>
 
   <label for="telefone">*Telefone:</label>
   <input type="tel" id="telefone" name="telefone" required>
-  <br><br>
 
   <label for="data">*Data de Nascimento:</label>
   <input type="date" id="data" name="data" required>
-  <br><br>
   
   <label for="idade">Idade:</label>
   <input type="number" id="idade" name="idade" min="0" max="120">
-  <br><br>
 
    <p>Quais temas você gosta?</p>
    <input type="checkbox" id="games" name="interesses" value="games">
@@ -51,7 +119,6 @@
 
    <input type="checkbox" id="outros" name="interesses" value="outros">
    <label for="outros">Outros 💖</label>
-   <br><br>
    
    <p>*Qual seu gênero?</p>
    <input type="radio" id="feminino" name="genero" value="feminino" required>
@@ -60,9 +127,9 @@
    <input type="radio" id="masculino" name="genero" value="masculino">
    <label for="masculino">Masculino</label>
 
-   <input type="radio" id="outro" name="genero" value="outro"
-   <label for="outro">Outro</label>
-   <br><br>
+   <input type="radio" id="outros" name="genero" value="outros">
+   <label for="outros">Outros</label>
+<br>
 
    <label for="curso">Curso:</label>
    <select id="curso" name="curso">
@@ -77,7 +144,7 @@
      <option value="outro">Outros</option>
      <option value="nenhum">Nenhum curso no momento 🚫</option>
 </select>
-<br><br>
+<br>
 
   <label for="mensagem">Mensagem:</label><br>
   <textarea id="mensagem" name="mensagem" rows="4" cols="30" placeholder="Escreva sua mensagem..."></textarea>
@@ -87,5 +154,4 @@
   <button type="reset">Apagar ❌</button>
 </form>
 </body>
-
 </html> 
