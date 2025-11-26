@@ -21,6 +21,12 @@
          box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
     }
 
+     header p {
+         text-align: center;
+         margin-top: 10px;
+         font-size: 1.2em;
+    }
+
       main {
            padding: 20px;
     }
@@ -32,9 +38,17 @@
       .post {
          background: white;
          padding: 20px;
-         margin: 20px 0;
+         margin: 20px auto;
+         width: 90%;
+         max-width: 800px;
          border-radius: 15px;
          box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+         transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+      .post:hover {
+         transform: scale(1.02);
+         box-shadow: 0px 6px 14px rgba(0,0,0,0.2);
     }
 
        .post h3 {
@@ -42,12 +56,12 @@
             color: #005f73;
     }
 
-       .post img {
-            width: 100%
-            max-width: 500px;
-            border-radius: 10px;
-            margin-bottom: 15px;
-    }
+       .instagram-container {
+            max-width: 600px;
+            margin: 20px auto;
+            border-radius: 15px;
+            overflow: hidden;
+   }
 
         .date {
             font-size: 0.9em;
@@ -74,6 +88,7 @@
     </style>
    </head>
 <body>
+<header>
   <h1>✨ Blog - Meu Progresso em Godot 4.2 ✨</h1>
   <p>Aqui eu compartilho tudo que estou aprendendo e desenvolvendo meu jogo 💖🎮</p>
 </header>
@@ -82,11 +97,19 @@
   
   <!-- POST 1 -->
   <div class="post">
-  <h3>🌟 Primeiros pulos com Godot 🌟
+  <h3>🌟 Primeiros pulos com Godot 🌟</h3>
   <p class="date">Publicado em: 30/06/2025</p>
 
   <!-- Vídeo do Instagram -->
-  <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DMvjg3rOMte/" data-instgrm="14"></blockquote>
+  <div class="instagram-container">
+  <blockquote 
+       class="instagram-media" 
+       data-instgrm-permalink="https://www.instagram.com/p/DMvjg3rOMte/" 
+       data-instgrm-version="14"
+       style="background:#FFF; border:0; margin:0; padding:0;">
+   </blockquote>
+  </div>
+
 <script async src="//www.instagram.com/embed.js"></script>
 
   <p>Primeiros passos no meu joguinho estilo Doodle Jump feito no    Godot Engine </p>
