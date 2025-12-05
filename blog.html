@@ -1,126 +1,142 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title>Blog Godot 4.2 ✨</title>
-  <style>
-    body {
-         font-family: Arial, sans-serif;
-         background: linear-gradient(to right, #d4eaff, #f0f9ff);
-         margin: 0;
-         padding: 0;
-         color: #222;
-    }
+<meta charset="UTF-8">
+<title>📘 Adaptando Godot 3 para Godot 4 - Minha jornada</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #a8d8ff, #e0f7ff);
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
 
-     header {
-         background-color: #0077b6;
-         color: White;
-         padding: 20px;
-         text-align: center;
-         border-radius: 0 0 20px 20px;
-         box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
-    }
+header {
+    background-color: #0077b6;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2)
+}
 
-     header p {
-         text-align: center;
-         margin-top: 10px;
-         font-size: 1.2em;
-    }
+h1 {
+   margin: 0;
+   font-size: 2.4em;
+}
 
-      main {
-           padding: 20px;
-    }
+main {
+   padding: 25px;
+   max-width: 900px;
+   margin: auto;
+   line-height: 1.7em;
+}
 
-      h1, h2 {
-          margin: 0;
-    }
+h2 {
+   color: #005f73;
+   margin-top: 35px;
+}
 
-      .post {
-         background: white;
-         padding: 20px;
-         margin: 20px auto;
-         width: 90%;
-         max-width: 800px;
-         border-radius: 15px;
-         box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
-         transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
+.code-box {
+   background: #eefaff;
+   border-left: 5px solid #0096c7;
+   padding: 10px 15px;
+   border-radius: 10px;
+   font-family: monospace;
+   white-space: pre-wrap;
+}
 
-      .post:hover {
-         transform: scale(1.02);
-         box-shadow: 0px 6px 14px rgba(0,0,0,0.2);
-    }
+a {
+  color: #0077b6;
+  font-weight: bold;
+}
 
-       .post h3 {
-            margin-top: 0;
-            color: #005f73;
-    }
-
-       .instagram-container {
-            max-width: 600px;
-            margin: 20px auto;
-            border-radius: 15px;
-            overflow: hidden;
-   }
-
-        .date {
-            font-size: 0.9em;
-            color: #555;
-            margin-bottom: 10px;
-    }
-
-         a.voltar {
-             display: inline-block;
-             margin-top: 20px;
-             padding: 10px 20px;
-             background-color: #0096c7;
-             color: white;
-             border-radius: 25px;
-             text-decoration: none;
-             font-weight: bold;
-             transition: 0.3s;
-     }
-
-     a.voltar:hover {
-         background-color: #023e8a;
-         transform: scale(1.1);
-     }
-    </style>
-   </head>
+footer {
+   margin-top: 40px;
+   padding: 15px;
+   text-align: right;
+   background-color: #0077b6;
+   color: white;
+   border-radius: 20px 20px 0 0;
+   box-shadow: 0px -4px 8px rgba(0,0,0,0.2)
+}
+</style>
+</head>
 <body>
-<header>
-  <h1>✨ Blog - Meu Progresso em Godot 4.2 ✨</h1>
-  <p>Aqui eu compartilho tudo que estou aprendendo e desenvolvendo meu jogo 💖🎮</p>
-</header>
+  <header>
+    <h1>💖 Minha Experiência Adaptando Godot 3 → Godot 4 💖</h1>
+    <p>Como estou criando meu jogo estilo Doodle Jump usando aulas da Godot 3 no Godot 4.2!</p> 
+   </header>
 
-<main>
-  
-  <!-- POST 1 -->
-  <div class="post">
-  <h3>🌟 Primeiros pulos com Godot 🌟</h3>
-  <p class="date">Publicado em: 30/06/2025</p>
+  <main>
+     <h2>🌟 Introdução</h2>
+     <p>Olá! Meu nome é Maria 💖 e atualmente estou estudando Godot 4.2. Para desenvolver meu jogo estilo <strong>Doodle Jump</strong> estou acompanhando o curso do professor <strong>Clécio Espindola</strong>, que usa a Godot 3 nas aulas. E isso trouxe vários desafios (mas eu amo desafios 💖).</p>
+     <p>Com isso, decidi criar este post explicando tudo que precisei adaptar até agora — talvez ajude você também!</p>
+     
+     <h2>⚡ Godot 3 x Godot 4 — Por que tanta diferença?</h2>
+     <p>Muita coisa mudou entre as versões. Alguns nodes foram renomeados, métodos desapareceram, scripts mudaram e até a forma de usar animações e signals ficou mais moderna.</p> 
+     <p>Aqui estão algumas diferenças importantes que encontrei:</p>
 
-  <!-- Vídeo do Instagram -->
-  <div class="instagram-container">
-  <blockquote 
-       class="instagram-media" 
-       data-instgrm-permalink="https://www.instagram.com/reel/DMvjg3rOMte/"
-       data-instgrm-version="14"
-       style="background:#FFF; border:0; margin:0; padding:0;">
-   </blockquote>
-  </div>
+     <h2>🔧 Principais adaptações que precisei fazer</h2>
 
-<script async src="//www.instagram.com/embed.js"></script>
+     <h3>1️⃣ <code>KinematicBody2D</code> virou <code>CharacterBody2D</code></h3>
+     <p>A movimentação mudou bastante e agora temos propriedades como <code>velocity</code>.</p>
 
-  <p>Primeiros passos no meu joguinho estilo Doodle Jump feito no    Godot Engine </p>
-    <p>Adicionei física, colisão e agora... ele PULAAA!</p>
-    <p>Com ajuda das aulas do professor Clécio Espindola GameDev</p>
-</div>
+      <h3>2️⃣ <code>AnimatedSprite</code> virou <code>AnimatedSprit2D</code></h3>
+      <p>Mais organizado e com melhor controle de animações.</p>
 
-  <a href="index.html" class="voltar">⬅️ Voltar ao Início</a>
+      <h3>3️⃣ <code>intance()</code> virou <code>instantiate()</code></h3>
+      <div class="code-box">var p = plataforma.instantiate()</div>
 
-</main>
+      <h3>4️⃣ Export e Onready mudaram</h3>
+      <div class="code-box">@export var velocidade = 300
+@onready var sprite = $AnimatedSprite2D</div>
 
+      <h3>5️⃣ A câmera mudou bastante</h3>
+      <p>Eu precisei criar um sistema para a câmera só seguir o player quando ele sobe:</p>
+       <div class="code-box">extends Camera2D
+
+@export var player: Node2D
+var highest_y = 0.0
+
+
+func _ready():
+    highest_y = global_position.y
+
+
+func _process(_delta):
+     if player == null:
+         return
+
+
+     if player.global_position.y < highest_y:
+         highest_y = player.global_position.y
+         global_position.y = highest_y</div>
+      
+      <h3>6️⃣ Signals ficaram mais simples de conectar</h3>
+      <p>O sistema de colisões e conexão de nós mudou um pouco, mas ficou mais prático.</p>
+       
+      <h2>🎮 O que já consegui criar até agora</h2>
+      <ul>
+         <li>✔ Player com animação e física funcionando</li>
+         <li>✔ Plataformas básicas</li>
+         <li>✔ Sistema de camera vertical estilo Doodle Jump</li>
+         <li>✔ Wrap horizontal (teletransporte de um lado para o outro)</li>
+         <li>✔ Plataforma cleaner para remover as que ficam para trás</li>
+      </ul>
+
+      <h2>🚀 Próximo passo</h2>
+      <p>A próxima aula do curso será sobre gerar <strong>variações de plataformas</strong>.Estou super animada para continuar adaptando tudo e compartilhando as descobertas 💖.</p>
+
+      <h2>💬 Conclusão</h2>
+      <p>Mesmo usando materiais da Godot 3, aprender Godot 4 está sendo incrível! Adaptar código me faz entender muito mais a lógica e como tudo funciona de verdade.</p>
+       <p>Espero que este post ajude outros estudantes que estão passando pelo mesmo caminho ✨</p>
+      </main>
+      
+      <footer>
+        <p>Post criado por Maria 💖 | 2025</p>
+      </footer>
 </body>
 </html>
 
