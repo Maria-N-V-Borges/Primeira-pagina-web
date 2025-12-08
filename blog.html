@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>📘 Adaptando Godot 3 para Godot 4 - Minha jornada</title>
+
 <style>
   body {
     font-family: Arial, sans-serif;
@@ -13,6 +14,7 @@
 }
 
 header {
+    margin-top: 60px;   /* empurra o header para baixo */
     background-color: #0077b6;
     color: white;
     padding: 25px;
@@ -24,6 +26,34 @@ header {
 h1 {
    margin: 0;
    font-size: 2.4em;
+}
+
+.menu {
+   position: fixed;    /*Fica grudado no topo */
+   top: 0;
+   left: 0;
+   width: 100%;
+   background-color: #0096c7;
+   padding: 12px 0;
+   text-align: center;
+   box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+   z-index: 1000;      /* Fica por cima de tudo */
+
+}
+
+.menu a {
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+   margin: 0 20px;
+   font-size: 1.1em;
+   transition: 0.3s ease;
+}
+
+.menu a:hover {
+   color: #caf0f8;
+   text-shadow: 0px 0px 5px rgba(255,255,255,0.7);
+   transform: scale(1.1);
 }
 
 main {
@@ -64,6 +94,14 @@ footer {
 </style>
 </head>
 <body>
+
+<nav class="menu">
+   <a href="index.html">Início</a>
+   <a href="blog.html">Blog</a>
+   <a href="#sobre">Sobre</a>
+   <a href="#contato">Contato</a>
+</nav>
+
   <header>
     <h1>💖 Minha Experiência Adaptando Godot 3 → Godot 4 💖</h1>
     <p>Como estou criando meu jogo estilo Doodle Jump usando aulas da Godot 3 no Godot 4.2!</p> 
