@@ -2,112 +2,25 @@
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
-<title>📘 Adaptando Godot 3 para Godot 4 - Minha jornada</title>
-
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #a8d8ff, #e0f7ff);
-    color: #222;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    margin-top: 60px;   /* empurra o header para baixo */
-    background-color: #0077b6;
-    color: white;
-    padding: 25px;
-    text-align: center;
-    border-radius: 0 0 20px 20px;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.2)
-}
-
-h1 {
-   margin: 0;
-   font-size: 2.4em;
-}
-
-.menu {
-   position: fixed;    /*Fica grudado no topo */
-   top: 0;
-   left: 0;
-   width: 100%;
-   background-color: #0096c7;
-   padding: 12px 0;
-   text-align: center;
-   box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
-   z-index: 1000;      /* Fica por cima de tudo */
-
-}
-
-.menu a {
-   color: white;
-   text-decoration: none;
-   font-weight: bold;
-   margin: 0 20px;
-   font-size: 1.1em;
-   transition: 0.3s ease;
-}
-
-.menu a:hover {
-   color: #caf0f8;
-   text-shadow: 0px 0px 5px rgba(255,255,255,0.7);
-   transform: scale(1.1);
-}
-
-main {
-   padding: 25px;
-   max-width: 900px;
-   margin: auto;
-   line-height: 1.7em;
-}
-
-h2 {
-   color: #005f73;
-   margin-top: 35px;
-}
-
-.code-box {
-   background: #eefaff;
-   border-left: 5px solid #0096c7;
-   padding: 10px 15px;
-   border-radius: 10px;
-   font-family: monospace;
-   white-space: pre-wrap;
-}
-
-a {
-  color: #0077b6;
-  font-weight: bold;
-}
-
-footer {
-   margin-top: 40px;
-   padding: 15px;
-   text-align: right;
-   background-color: #0077b6;
-   color: white;
-   border-radius: 20px 20px 0 0;
-   box-shadow: 0px -4px 8px rgba(0,0,0,0.2)
-}
-</style>
+    <title>📘 Adaptando Godot 3 para Godot 4 - Minha jornada</title>
+    <!-- CSS Geral + CSS específico do blog -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/blog.css">
 </head>
 <body>
+    <nav class="menu">
+        <a href="index.html">Início</a>
+        <a href="blog.html">Blog</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+    </nav>
 
-<nav class="menu">
-   <a href="index.html">Início</a>
-   <a href="blog.html">Blog</a>
-   <a href="#sobre">Sobre</a>
-   <a href="#contato">Contato</a>
-</nav>
-
-  <header>
+  <header class="blog-header">
     <h1>💖 Minha Experiência Adaptando Godot 3 → Godot 4 💖</h1>
     <p>Como estou criando meu jogo estilo Doodle Jump usando aulas da Godot 3 no Godot 4.2!</p> 
    </header>
 
-  <main>
+  <main class="blog-main">
      <h2>🌟 Introdução</h2>
      <p>Olá! Meu nome é Maria 💖 e atualmente estou estudando Godot 4.2. Para desenvolver meu jogo estilo <strong>Doodle Jump</strong> estou acompanhando o curso do professor <strong>Clécio Espindola</strong>, que usa a Godot 3 nas aulas. E isso trouxe vários desafios (mas eu amo desafios 💖).</p>
      <p>Com isso, decidi criar este post explicando tudo que precisei adaptar até agora — talvez ajude você também!</p>
@@ -177,5 +90,3 @@ func _process(_delta):
       </footer>
 </body>
 </html>
-
-
