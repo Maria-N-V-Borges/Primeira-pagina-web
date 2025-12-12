@@ -1,0 +1,78 @@
+/* ========= ESTILO GERAIS ======== */
+body {
+    font-family: Arial, sans-serif; 
+    background: linear-gradient(to right, #a8d8ff, #e0f7ff); /* degrade azul clarinho */
+    color: #222; 
+    margin: 0;
+    padding: 0;
+}
+
+/* ========= HEADER GERAL ======= */
+   header {
+    background-color: #0077b6; /*azul mais forte */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+ 
+   h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* ====== MAIN GERAL ======== */
+   main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* ======== TÍTULOS ====== */
+   h2, h3 {
+    color: #005f73;
+}
+   h2 {
+    margin-top: 30px;
+}
+
+/* ======= LISTAS ======= */
+   ul {
+    list-style: none;
+    padding: 0;
+}
+
+   li {
+    margin: 10px 0;
+}
+
+/* ====== LINKS ====== */
+
+   a {
+      text-decoration: none;
+      background-color: #0096c7;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 25px;
+      transition: 0.3s;
+      font-weight: bold;
+     
+}
+
+   a:hover {
+      background-color: #023e8a;
+      transform: scale(1.1);
+   }
+
+
+/* ======== FOOTER GERAL ====== */
+
+ footer {
+   margin-top: 40px;
+   padding: 15px;
+   text-align: right;
+   background-color: #0077b6;
+   color: white;
+   border-radius: 20px 20px 0 0;
+   box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+}
