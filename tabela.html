@@ -3,52 +3,26 @@
 <head>
  <meta charset="UTF-8">
  <title>Tabela de Comidas 🍽️</title>
- <style>
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f8ff; /* azul bem clarinho de fundo */
-    color: #333; /* Texto padrão e cinza escuro */
-    text-align: center; /* centralizei todo o texto da página */
-}
-
-h1 {
-   color:#0077b6; /* azul médio */
-}
-
-table {
-  width: 60%; /* A tabela ocupa 60% da largura da tela */
-  margin: 20px auto; /* Coloquei margem em cima/baixo e auto pros lados para centraliza a tabela na página. */
-  border-collapse: collapse; /* Junta as bordas */
-  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra bem levinha atrás da tabela, dá um ar 3D */
-  background: white;
-  border-radius: 8px; /* Bordas levemente arredondadas na tabela */
-  overflow: hidden; /* Isso faz o arrendodado funcionar certinho */
-}
-
-th, td {
-  padding: 12px 15px; /* Coloquei espaço interno (tipo "almofada") dentro das células, assim o texto não fica colado na borda */
-  border: 1px solid #ddd; /* Bordas fininhas cinza claro, separando os itens */
-}
  
- th {
-  background-color: #0077b6; /* azul forte no cabeçalho */
-  color: white;
-  font-size: 1.2em; /* Letras do cabeçalho ficaram um pouquinho maiores */
-}
-
-tr:nth-child(even) {
-  background-color: #caf0f8; /* azul clarinho nas linhas pares, chamado de efeito zebra */
-}
-
-tr:hover {
-  background-color: #90e0ef; /* azul claro ao passar o mouse */
-}
-</style>
+ <link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="css/blog.css"> 
+ <link rel="stylesheet" href="css/tabela.css">
 </head>
+
 <body>
+  <nav class="menu">
+        <a href="index.html">Início</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+  <header class="blog-header">
  <h1>🍎 Tabela de Comidas em Inglês e Português 🍰</h1>
+ </header>
 
 <!--Tabela de comida-->
+<main class="blog-main">
 <table border="1">
  <tr>
   <th>Comida (inglês)</th>
@@ -96,10 +70,10 @@ tr:hover {
   <td>🍫</td>
  </tr>
 </table>
-<footer style="margin-top: 30px; font-size: 14px; color: #555; text-align: right;">
-  <p>Página criada por Maria 💖 | 2025</p>
-</footer>
+</main>
+  <footer>
+        <p>Post criado por Maria 💖 | 2025</p>
+  </footer>
 </body>
 </html>
-
 
