@@ -73,6 +73,7 @@ Hoje, o projeto conta com várias páginas, navegação organizada, separação 
 - Integração entre HTML + CSS + JS
 
 - Troca dinâmica de imagens
+- menu hambúrguer 
 
 #### 💡 Projeto destaque: Lâmpada Interativa
 
@@ -85,10 +86,6 @@ Neste projeto, a lâmpada liga e desliga ao clicar nos botões, praticando conce
 - Tive dificuldade no início para **separar HTML e CSS**, pois eu costumava escrever tudo no mesmo arquivo.
   
   Com o tempo, aprendi a organizar melhor o projeto usando vários arquivos CSS.
-
-- Tentei criar um **menu hambúrguer usando JavaScript**, mas ainda não consegui fazer funcionar do jeito que eu gostaria.
-
-  Pretendo revisitar esse ponto quando tiver mais prática com JavaScript.
 
 - O **formulário ainda não envia dados para nenhum lugar**, pois atualmente ele não está conectado a um backend.
   
@@ -112,7 +109,6 @@ Este projeto continuará evoluindo. Algumas melhorias que pretendo implementar:
 - 🌍 Criar uma versão em inglês do site
 - 🍎 Adicionar sons das comidas em inglês na tabela (`<audio>`)
 - 🧱 Criar uma classe de tabela reutilizável em CSS
-- 🍔 Refazer o menu hambúrguer com JavaScript
 - ⚛️ Futuramente refatorar partes do projeto usando React
 
 ---
