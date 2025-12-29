@@ -33,47 +33,6 @@
    transform: scale(1.1);
 }
 
-/* ====== MENU HAMBÚRGUER ======= */
-
-.hamburger {
-   display: none; /* só aparece no mobile */
-   font-size: 28px;
-   color: white;
-   cursor: pointer;
-   padding: 10px 20px;
-}
-
-/* Coitainer dos links */
-.menu-links {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-/* ======= RESPONSIVO ======== */
-@media (max-width: 768px) {
-
-   .hamburger {
-      display: block;
-      text-align: right;
-   }
-
-   .menu-links {
-      display: none; /* começa fechado */
-      flex-direction: column;
-      background-color: #0096c7;
-      width: 100%;
-   }
-
-   .menu-links a {
-      margin: 10px 0;
-   }
-
-   .menu-links.ativo {
-      display: flex;
-   }
-}
-
 /* Conteúdo principal do blog */
 .blog-main {
    padding: 25px;
