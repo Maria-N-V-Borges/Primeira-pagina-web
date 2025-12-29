@@ -10,11 +10,17 @@
 
 <body>
     <nav class="menu">
+        <div class="hamburger" onclick="toggleMenu()">
+            ☰
+        </div>
+
+        <div class="menu-links" id="menuLinks">
         <a href="index.html">Início</a>
         <a href="projetos.html">Projetos</a>
         <a href="blog.html">Blog</a>
         <a href="sobre.html">Sobre</a>
         <a href="contato.html">Contato</a>
+    </div>
     </nav>
 
   <header class="blog-header">
@@ -31,7 +37,7 @@
       width="500" 
   >
 
-  <br>
+  <br><br>
 
   <button onclick="ligar()">Ligar 💡</button>
   <button onclick="desligar()">Desligar 🌙</button>
@@ -42,6 +48,7 @@
  <p>Página criada por Maria 💖 | 2025</p>
 </footer>
 
-<script src="js/lampada.js"></script>
+ <script src="js/lampada.js"></script>
+ <script src="js/menu.js"></script>
 </body>
 </html>
