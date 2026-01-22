@@ -7,11 +7,11 @@ function toggleDarkMode() {
 	const body = document.body;
 	const header = document.querySelector("header");
 	const footer = document.querySelector("footer");
+	const titles = document.querySelectorAll("h2, h3");
 	const menu = document.querySelector(".menu");
 	const menuLinks = document.querySelectorAll(".menu a");
 	const links = document.querySelectorAll("a");
 	const buttons = document.querySelectorAll("button");
-	const titles = document.querySelectorAll("h2, h3");
 	const toggleBtn = document.getElementById("modoToggle");
 
 	body.classList.toggle("dark-mode");
