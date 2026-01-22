@@ -1,0 +1,16 @@
+/* ======= LÂMPADA CONTAINER ========= */
+.lampada-container {
+  display: flex;
+  justify-content: center; /* centraliza tudo */
+  align-items: center;     /* alinha verticamente */
+  gap: 20px;               /* espaço entre os elementos */
+}
+
+.lampada-container img {
+  max-width: 300px;
+}
+
+.lampada-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
