@@ -74,9 +74,10 @@ form p {
 
 /* ======== DARK MODE FORMULÁRIO ====== */
 body.dark-mode form {
-  background: #1e1e1e; /* fundo escuro */
+  background: linear-gradient(135deg, #1e1e1e, #2c2c2c); /* gradiente cinza escuro */
   box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1); /* sombra clara */
   color: #f1f1f1; /* texto claro */
+  border: 1px solid #444; /* borda discreta */
 }
 
 body.dark-mode label {
