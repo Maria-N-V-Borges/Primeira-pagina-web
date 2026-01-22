@@ -71,3 +71,46 @@ form p {
   margin-bottom: 10px;
   color: 003366;
 }
+
+/* ======== DARK MODE FORMULÁRIO ====== */
+body.dark-mode form {
+  background: #1e1e1e; /* fundo escuro */
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1); /* sombra clara */
+  color: #f1f1f1; /* texto claro */
+}
+
+body.dark-mode label {
+  color: #f1f1f1; /* labels brancas */
+}
+
+body.dark-mode input,
+body.dark-mode select,
+body.dark-mode textarea {
+  background: #2c2c2c; /* campos escuros */
+  color: #f1f1f1; /* texto claro */
+  border: 1px solid #555; /* borda cinza */
+}
+
+body.dark-mode input::placeholder,
+body.dark-mode textarea::placeholder {
+  color: #aaa; /* placeholder mais suave */
+}
+
+body.dark-mode input[type="checkbox"],
+body.dark-mode input[type="radio"] {
+  accent-color: #f1f1f1; /* cor dos checkboxes e radios */
+}
+
+body.dark-mode button {
+  background: #333; /* botão escuro */
+  color: #f1f1f1;
+  border: 2px solid #f1f1f1; /* borda branca */
+}
+
+body.dark-mode button:hover {
+  background: #555; /* hover mais claro */
+}
+
+body.dark-mode form p {
+  color: #f1f1f1; /* parágrafos claros */
+}
