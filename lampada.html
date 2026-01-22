@@ -6,6 +6,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/lampada.css">
 </head>
 
 <body>
@@ -21,26 +22,28 @@
         <a href="sobre.html">Sobre</a>
         <a href="contato.html">Contato</a>
     </div>
+    
     </nav>
 
   <header class="blog-header">
  <h1>💡 Lâmpada com JavaScript 💡</h1>
  <p>Projeto para praticar eventos e DOM em JavaScript.</p>
+ <button id="modoToggle" onclick="toggleDarkMode()"> 🌙 Dark Mode </button>
 </header>
 
 <main style="text-align: center;">
-
+ 
+ <div class="lampada-container">
+     <button onclick="ligar()">Ligar 💡</button>
  <img 
       id="lampada" 
       src="img/lampada_desligada.png"
       alt="Lâmpada desligada" 
-      width="500" 
+      width="300" 
   >
 
-  <br><br>
-
-  <button onclick="ligar()">Ligar 💡</button>
   <button onclick="desligar()">Desligar 🌙</button>
+ </div>
 
 </main>
 
