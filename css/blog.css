@@ -66,3 +66,10 @@
    background-color: #023e8a;
    transform: scale(1.05);
 }
+
+/* ====== DARK MODE BLOG ======== */
+body.dark-mode .code-box {
+   background: linear-gradient(135deg, #2c2c2c, #444); /* gradiente cinza */
+   border-left: 5px solid #fff; /* borda branca para destacar */
+   color: #f1f1f1;    /* texto claro */
+}
