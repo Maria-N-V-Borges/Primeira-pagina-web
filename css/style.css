@@ -75,6 +75,26 @@ body {
    .menu-links.ativo {
       display: flex;
    }
+
+/* ======= DARK MODE MOBILE ======= */
+   body.dark-mode .menu-links {
+      background-color: #000; /* fundo preto no mobile */
+   }
+
+   body.dark-mode .menu-links a {
+      background-color: transparent;
+      color: white;
+      border: 2px solid white;
+      padding: 10px 20px;
+      border-radius: 25px;
+   }
+
+   body.dark-mode .menu-links a:hover {
+      background-color: #333;
+      color: #90e0ef;
+      transform: scale(1.1);
+   }
+
 }
 
 /* ======= LISTAS ======= */
@@ -124,6 +144,65 @@ button:hover {
    transform: scale(1.1);
 }
 
+/* ====== MENU DARK MODE ====== */
+.menu.dark-mode {
+   background-color: #000; /* fundo preto */
+}
+
+.menu.dark-mode a {
+   background-color: transparent;
+   color: white;
+   border: 2px solid white; /* borda branca */
+   padding: 10px 20px;
+   border-radius: 25px;
+}
+
+.menu.dark-mode a:hover {
+   background-color: #333;
+   color: #90e0ef;
+   transform: scale(1.1);
+}
+
+
+/* ==== DARK MODE ==== */
+body.dark-mode {
+   background: linear-gradient(to right, #121212, #1e1e1e); /* fundo escuro */
+   color: #f1f1f1; /* texto claro */
+}
+
+header.dark-mode,
+footer.dark-mode {
+   background-color: #222; /* header escuro */
+   color: #f1f1f1;
+   border: 2px solid white; /* borda branca */
+}
+
+h2.dark-mode, h3.dark-mode {
+   color: #90e0ef; /* títulos com azul suave */
+}
+
+a.dark-mode {
+   background-color: #333;
+   color: #f1f1f1;
+}
+
+a.dark-mode:hover {
+   background-color: #555;
+}
+
+button.dark-mode {
+   background-color: #333;
+   color: #f1f1f1;
+}
+
+button.dark-mode:hover {
+   background-color: #555;
+}
+
+footer.dark-mode {
+   background-color: #222;
+   color: #f1f1f1;
+}
 
 /* ======== FOOTER GERAL ====== */
 
