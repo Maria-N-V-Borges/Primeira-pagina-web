@@ -5,11 +5,28 @@
    <title>Site de Maria 🌸</title>
    <!-- Link para o arquivo CSS externo -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/blog.css">
 </head>
+
 <body>
-  <header>
+  <nav class="menu">
+        <div class="hamburger" onclick="toggleMenu()">
+            ☰
+        </div>
+
+        <div class="menu-links" id="menuLinks">
+        <a href="projetos.html">Projetos</a>
+        <a href="blog.html">Blog</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+      </div>
+
+    </nav>
+
+  <header class="blog-header">
  <h1>💖 Bem-vindos ao meu site 💖</h1>
  <p>Esse é meu primeiro projeto em HTML5, criado na disciplina de desenvolvimento Web.</p>
+ <button id="modoToggle" onclick="toggleDarkMode()"> 🌙 Dark Mode </button>
 </header>
 
 <main>
@@ -25,5 +42,7 @@
 <footer>
  <p>Página criada por Maria 💖 | 2025</p>
 </footer>
+
+<script src="js/menu.js"></script>
 </body>
 </html>
