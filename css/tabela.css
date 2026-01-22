@@ -28,3 +28,29 @@ tr:nth-child(even) {
 tr:hover {
   background-color: #90e0ef; /* azul claro ao passar o mouse */
 }
+
+/* ====== DARK MODE TABELA ====== */
+body.dark-mode table {
+  background: #1e1e1e; /* fundo escuro da tabela */
+  box-shadow: 0 0 10px rgba(225, 255, 255, 0.1); /* sombra clara */
+  border-radius: 8px;
+}
+
+body.dark-mode th,
+body.dark-mode td {
+  border: 1px solid #444; /* bordas mais escuras */
+  color: #f1f1f1; /* texto claro */
+}
+
+body.dark-mode th {
+  background-color: #333; /* cabeçalho escuro */
+  color: #fff; /* texto branco */
+}
+
+body.dark-mode tr:nth-child(even) {
+  background-color: #2a2a2a; /* destaque ao passar o mouse */
+}
+
+body.dark-mode tr:hover {
+  background-color: #444; /* destaque ao passar o mouse */
+}
