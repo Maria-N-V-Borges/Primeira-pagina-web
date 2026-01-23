@@ -1,10 +1,13 @@
 function ligar() {
-	document.getElementById("lampada").src = "img/lampada_ligada.png";
-
+	const lampada = document.getElementById("lampada");
+	lampada.src = "img/lampada_ligada.png";
+	lampada.classList.add("lampada-brilho");
 }
 
 function desligar() {
-	document.getElementById("lampada").src = "img/lampada_desligada.png";
+	const lampada = document.getElementById("lampada");
+	lampada.src = "img/lampada_desligada.png";
+	lampada.classList.remove("lampada-brilho");
 }
 
 // document representa toda a página HTML
