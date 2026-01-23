@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset=UTF-8>
+   <title>🌙 Dark Mode 🌞</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/blog.css">
+</head>
+
+<body>
+    <nav class="menu">
+        <div class="hamburger" onclick="toggleMenu()">
+            ☰
+        </div>
+
+        <div class="menu-links" id="menuLinks">
+        <a href="index.html">Início</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="blog.html">Blog</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+    </div>
+    
+    </nav>
+
+  <header class="blog-header">
+ <h1>🌙 Dark Mode 🌞</h1>
+ <p>O que aprendi criando o modo escuro ✨.</p>
+ <button id="modoToggle" onclick="toggleDarkMode()"> 🌙 Dark Mode </button>
+</header>
+
+<main class="blog-main">
+    <h2>💡 O que é Dark Mode?</h2>
+    <p>Dark Mode é uma forma de deixar o site com fundo escuro e texto claro, ajudando na leitura e dando um estilo moderno. </p>
+
+    <h2>🛠️ O que aprendi</h2>
+    <ul>
+        <li>✔ Alternar classes com <code>classList.toggle()</code></li>
+        <div class="code-box">
+    function toggleDarkMode() {
+        const body = document.body;
+        const header = document.querySelector("header");
+        const footer = document.querySelector("footer");
+        const titles = document.querySelectorAll("h2, h3");
+        const menu = document.querySelector(".menu");
+        const menuLinks = document.querySelectorAll(".menu a");
+        const links = document.querySelectorAll("a");
+        const buttons = document.querySelectorAll("button");
+        const toggleBtn = document.getElementById("modoToggle");
+
+        body.classList.toggle("dark-mode");
+        header.classList.toggle("dark-mode");
+        footer.classList.toggle("dark-mode");
+        menu.classList.toggle("dark-mode");
+        titles.forEach(el => el.classList.toggle("dark-mode"));
+        links.forEach(el => el.classList.toggle("dark-mode"));
+        buttons.forEach(el => el.classList.toggle("dark-mode"));
+        menuLinks.forEach(el => el.classList.toggle("dark-mode"));
+
+        // Operador ternário ? :
+        toggleBtn.textContent = body.classList.contains("dark-mode") ? "☀️ Light Mode" : "🌙 Dark Mode";
+
+        // Salva no navegador localStorage.setItem("darkMode", body.classList.contains("dark-mode") ? "enabled" : "disabled"); }
+    }
+        </div>
+
+        <li>✔ Usar CSS para mudar cores e fundos</li>
+        <div class="code-box">
+    body.dark-mode {
+        background: linear-gradient(to right, #121212, #1e1e1e); /* fundo escuro */
+        color: #f1f1f1; /* texto claro */
+    }
+
+    </div>
+
+        <li>✔Trocar ícones de 🌙 para ☀️ com JavaScript usando <code>? :</code></li>
+        <div class="code-box">
+    toggleBtn.textContent = isDark ? "☀️ Light Mode" : "🌙 Dark Mode";
+        </div>
+
+        <li>✔ Arrow Functions <code>=></code></li>
+        <div class="code-box">
+   // Exemplo com arrow function
+    titles.forEach(el => el.classList.toggle("dark-mode"));
+    </div>
+
+        <li>✔ Criar estilos diferentes para desktop e mobile</li>
+        <div class="code-box"> 
+    body.dark-mode .menu-links { 
+        background-color: #000; 
+    } 
+    </div>
+
+        <li>✔ Transição suave entre claro e escuro</li>
+         <div class="code-box"> 
+    body, header, footer, h2, h3, a, button { 
+        transition: background-color 0.5s ease, color 0.5s ease; 
+    } 
+        </div>
+
+    </ul>
+
+    <h2>🔗Link do meu repositório do GitHub</h2>
+    <a href="https://github.com/Maria-N-V-Borges/Primeira-pagina-web/tree/main" target="_blank">Primeira página Web</a>
+
+</main>
+
+<footer>
+ <p>Página criada por Maria 💖 | 2025</p>
+</footer>
+
+ <script src="js/menu.js"></script>
+</body>
+</html>
