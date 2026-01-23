@@ -15,6 +15,7 @@ Hoje, o projeto conta com várias páginas, navegação organizada, separação 
 - 📊 Tabela
 - 📝 Formulário
 - 💡 Lâmpada (JavaScript)
+- 🌙 Dark Mode (explicação)
 - 👩‍💻 Sobre
 - 📬 Contato
 
@@ -59,26 +60,26 @@ Hoje, o projeto conta com várias páginas, navegação organizada, separação 
     - `tabela.css`
     - `formulario.css`
 - Comentários em CSS `/* */`
+- **Dark Mode com transição suave ✨**
 
 ---
 
 ### ⚙️ JavaScript (em aprendizado 💖)
 
 - Manipulação do DOM (`getElementById`)
-
 - Criação e uso de funções
-
 - Eventos (`onclick`)
-
 - Integração entre HTML + CSS + JS
-
 - Troca dinâmica de imagens
-- menu hambúrguer 
+- menu hambúrguer
+- Persistência do Dark Mode com localStorage
+- Uso de arrow functions (=>)
+- Uso do operador ternário (? :)
 
 #### 💡 Projeto destaque: Lâmpada Interativa
 
-Neste projeto, a lâmpada liga e desliga ao clicar nos botões, praticando conceitos fundamentais de JavaScript que servem de base para frameworks como **React**.
-
+Neste projeto, a lâmpada liga e desliga ao clicar nos botões, com efeito de brilho desenhado por mim 💡.
+Foi uma prática de manipulação do DOM e estilização dinâmica, conceitos que são base para frameworks como React.
 
 
 ## 🧠 Dificuldades encontradas (e aprendizados 💖)
@@ -91,7 +92,7 @@ Neste projeto, a lâmpada liga e desliga ao clicar nos botões, praticando conce
   
   👉 Isso é normal: HTML sozinho não envia dados — para isso é necessário usar JavaScript + backend ou serviços externos.
 
-Essas dificuldades fazem parte do meu aprendizado e contribuíram muito para meu crescimento como estudante.
+- Aprendi que persistência de estado (como manter o Dark Mode ativo entre páginas) é essencial para experiência do usuário.
 
 ---
 
@@ -99,7 +100,6 @@ Essas dificuldades fazem parte do meu aprendizado e contribuíram muito para meu
 
 Este projeto continuará evoluindo. Algumas melhorias que pretendo implementar:
 
-- 🌙 Adicionar modo escuro (dark mode)
 - 📱 Tornar o site totalmente responsivo
 - 🧩 Transformar os contatos em cards
 - 📝 Fazer o formulário funcionar de verdade (envio de dados)
@@ -110,12 +110,15 @@ Este projeto continuará evoluindo. Algumas melhorias que pretendo implementar:
 - 🍎 Adicionar sons das comidas em inglês na tabela (`<audio>`)
 - 🧱 Criar uma classe de tabela reutilizável em CSS
 - ⚛️ Futuramente refatorar partes do projeto usando React
+- 🎮 Adicionar meus jogos do Godot (como o estilo Doodle Jump)
+- 🎨 Mostrar meus modelos 3D do Blender (via Sketchfab)
+- 🐍 Incluir desafios de Python e jogo de xadrez em C (via GitHub)
 
 ---
 
 ## 💬 Observação final
 
 Este projeto representa minha evolução real como estudante de desenvolvimento web.
+Cada página reflete algo novo que aprendi, pratiquei e melhorei com o tempo 💖.
 
-Cada página reflete algo novo que aprendi, pratiquei e melhorei com o tempo 💖
-Ele continuará evoluindo conforme avanço nos estudos de JavaScript e React.
+Ele continuará evoluindo conforme avanço nos estudos de JavaScript, Godot, Blender e React 🚀.
