@@ -7,6 +7,11 @@ body {
     padding: 0;
 }
 
+/* Transição suave para dark mode */
+body, header, footer, h2, h3, a, button {
+   transition: background-color 0.5 ease, color 0.5s ease;
+}
+
 /* ========= HEADER GERAL ======= */
    header {
     background-color: #0077b6; /*azul mais forte */
