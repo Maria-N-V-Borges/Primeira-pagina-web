@@ -31,7 +31,7 @@
   </header>
 
 <main class="blog-main"> 
-<form>
+<form method="POST" action="php/processa_formulario.php">
   <label for="nome">*Nome:</label>
   <input type="text" id="nome" name="nome" required>
 
@@ -45,31 +45,31 @@
   <input type="number" id="idade" name="idade" min="0" max="120">
 
    <p>Quais temas você gosta?</p>
-   <input type="checkbox" id="games" name="interesses" value="games">
+   <input type="checkbox" id="games" name="interesses[]" value="games">
    <label for="games">Games 🎮</label>
 
-   <input type="checkbox" id="ia" name="interesses" value="ia">
+   <input type="checkbox" id="ia" name="interesses[]" value="ia">
    <label for="ia">Inteligência Artificial 🤖</label>
    
-   <input type="checkbox" id="musica" name="interesses" value="musica">
+   <input type="checkbox" id="musica" name="interesses[]" value="musica">
    <label for="musica">Música 🎵</label>
 
-   <input type="checkbox" id="esportes" name="interesses" value="esportes">
+   <input type="checkbox" id="esportes" name="interesses[]" value="esportes">
    <label for="esportes">Esportes ⚽</label>
 
-   <input type="checkbox" id="animes" name="interesses" value="animes">
+   <input type="checkbox" id="animes" name="interesses[]" value="animes">
    <label for="animes">Animes & Mangás 🌸</label>
 
-   <input type="checkbox" id="literatura" name="interesses" value="literatura">
+   <input type="checkbox" id="literatura" name="interesses[]" value="literatura">
    <label for="literatura">Literatura 📚</label>
 
-   <input type="checkbox" id="tecnologia" name="interesses" value="tecnologia">
+   <input type="checkbox" id="tecnologia" name="interesses[]" value="tecnologia">
    <label for="tecnologia">Tecnologia 💡</label>
 
-   <input type="checkbox" id="natureza" name="interesses" value="natureza">
+   <input type="checkbox" id="natureza" name="interesses[]" value="natureza">
    <label for="natureza">Natureza 🌿</label>
 
-   <input type="checkbox" id="outros" name="interesses" value="outros">
+   <input type="checkbox" id="outros" name="interesses[]" value="outros">
    <label for="outros">Outros 💖</label>
    
    <p>*Qual seu gênero?</p>
